@@ -36,4 +36,7 @@ def analyze_count_not():
     for color in count_not_analyze:
         count_not_analyze_color_data = count_not_analyze[color]
         count_not_analyze_color_data = dict(sorted(count_not_analyze_color_data.items()))
-        
+        keys = list(count_not_analyze_color_data.keys())
+        print(keys)
+        for counter in keys:
+            counter_sum = sum([count_not_analyze_color_data[key]] for key in count_not_analyze_color_data.keys()])
