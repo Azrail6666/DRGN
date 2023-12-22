@@ -3,6 +3,7 @@ from database.interfaces import DrgnGameInterface
 def analyze_count_not():
     drgn_game_interface = DrgnGameInterface()
     count_models = drgn_game_interface.get_count_models()
+    print(f"ANALYZE {count_models} GAMES")
     count_pages = count_models // 100 + 1
     requred_colors = ["b", "y", "r", "by", "br", "yr"]
     count_not_now = {}
@@ -32,5 +33,7 @@ def analyze_count_not():
                     else:
                         count_now_analyze[color][count_now[color]] = 1
                     count_now[color] = 0
-    print(count_not_analyze['by'])
-    print(count_now_analyze['by'])
+    for color in count_not_analyze:
+        count_not_analyze_color_data = count_not_analyze[color]
+        count_not_analyze_color_data = dict(sorted(count_not_analyze_color_data.items()))
+        
