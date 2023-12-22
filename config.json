@@ -1,0 +1,17 @@
+{
+    "mysql": {
+        "user": "neon",
+        "password": "Pz4oVqGJ0SEB",
+        "host": "ep-sweet-flower-38671224.us-east-2.aws.neon.tech",
+        "port": 5432,
+        "database": "neondb"
+    },
+    "telegram_bot_logs": {
+        "telegram_bot_token": "",
+        "chat_id": ""
+    },
+    "project_data": {
+        "project_version": "0.0.1",
+        "project_name": "Estrelabet"
+    }
+}
