@@ -8,7 +8,7 @@ from sqlalchemy import DateTime
 from datetime import datetime as dt
 
 
-class CycleModel(base):
+class DrgnGameModel(base):
     __tablename__ = "drgn"
     id = Column(
         Integer,

@@ -1,10 +1,10 @@
 {
     "mysql": {
-        "user": "neon",
-        "password": "Pz4oVqGJ0SEB",
-        "host": "ep-sweet-flower-38671224.us-east-2.aws.neon.tech",
+        "user": "amfetamin3q",
+        "password": "QAZplmCvbn1!",
+        "host": "localhost",
         "port": 5432,
-        "database": "neondb"
+        "database": "drgn"
     },
     "telegram_bot_logs": {
         "telegram_bot_token": "",
