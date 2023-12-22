@@ -1,0 +1,3 @@
+from analyzators.analyze_count_not import analyze_count_not
+
+analyze_count_not()
