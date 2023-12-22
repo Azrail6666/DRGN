@@ -32,5 +32,5 @@ def analyze_count_not():
                     else:
                         count_now_analyze[color][count_now[color]] = 1
                     count_now[color] = 0
-    print(count_not_analyze['b'])
-    print(cound_now_analyze['b'])
+    print(count_not_analyze['by'])
+    print(count_now_analyze['by'])
